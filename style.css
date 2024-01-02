@@ -1,0 +1,49 @@
+/* This rule applies to the header and footer, adding in a background color, centering text, etc */
+.footer,header {
+  background-color: #bfffad;
+  padding: 10px;
+  text-align: center;
+  font-family: Verdana, sans-serif;
+}
+
+/* This rule aplies to the main body of the page, adding in a background color, centering text, etc */
+.main {
+  background-color: #96c8ff;
+  text-align: center;
+  font-family: Georgia, sans-serif;
+}
+
+/* This rule applies to all paragraphs, denoted by <p> </p>, and sets font size to 18 pixels */
+p {
+  font-size: 18px;
+}
+
+/* This rule applies to unordered and ordered lists, removing all padding and margins along with ensuring the bullets/numbers are positioned properly */
+ul, ol{
+  list-style-position: inside;
+  margin: 0;
+  padding: 0;
+}
+
+/* This rule makes any links colored red */
+a:link, a:visited {
+  color: #ff0000;
+}
+
+/* This rule removes margins for the body of the webpage */
+body {
+  margin: 0;
+}
+
+/* This rule centers any content with the container rule referenced */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* This rule scales images down by 50 percent */
+.scale-Image {
+  height: 50%; 
+  width: 50%; 
+}
